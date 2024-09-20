@@ -5,6 +5,7 @@ onLoad();
 function onLoad() {
   loadBagItemObjects();
   displayBagItems();
+  displayBagItemCount();
   displayBagSummary();
 }
 
