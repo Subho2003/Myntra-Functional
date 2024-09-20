@@ -1,7 +1,7 @@
 const items = [
   {
       id: '001',
-      image: 'images/1.jpg',
+      image: '../images/1.jpg',
       company: 'Carlton London',
       item_name: 'Rhodium-Plated CZ Floral Studs',
       original_price: 1045,
