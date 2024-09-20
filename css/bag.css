@@ -1,0 +1,133 @@
+main {
+  margin-top: 7%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bag-page {
+  display: flex;
+  gap: 20px;
+  width: 80%;
+}
+
+.bag-items-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 65%;
+}
+
+.bag-summary {
+
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  border: 1px solid #eaeaec;
+  border-radius: 4px;
+  padding: 0 12px 0 12px;
+  height: 230px;
+}
+
+.price-header {
+  font-size: 15px;
+  font-weight: 700;
+  margin: 24px 0 16px;
+  color: #535766;
+}
+
+.price-item {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  font-weight: 700;
+  color: #41444e;
+}
+
+.priceDetail-base-discount {
+  color: #03a685;
+}
+
+.price-footer {
+  font-weight: 700;
+  font-size: 15px;
+  padding-top: 12px;
+  border-top: 1px solid #eaeaec;
+  color: #3e4152;
+  line-height: 16px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.btn-place-order {
+  width: 100%;
+  letter-spacing: 1px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 2px;
+  border-width: 0px;
+  padding: 10px 16px;
+  background-color: rgb(255, 63, 108);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  margin-top: 12px;
+}
+
+.bag-item-container {
+  display: flex;
+  padding: 12px;
+  border: 1px solid #eaeaec;
+  border-radius: 4px;
+  background: #fff;
+  font-size: 14px;
+  gap: 15px;
+  position: relative;
+  height: 230px;
+}
+
+.item-left-part {
+  width: 160px;
+  display: flex;
+}
+
+.item-right-part {
+  width: calc(100% - 135px);
+}
+
+.bag-item-image {
+  width: 100%;
+  object-fit: contain;
+}
+
+.return-period {
+  font-size: 14px;
+  padding-top: 8px;
+}
+
+.return-period-days {
+  font-weight: 700;
+  margin-right: 4px;
+}
+
+.delivery-details {
+  margin-top: 5px;
+  color: #282c3f;
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+
+.delivery-details-days {
+  color: #03a685;
+}
+
+.remove-from-cart {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  font-size: 25px;
+  font-weight: 700;
+  color: rgb(121, 121, 121);
+  cursor: pointer;
+}
