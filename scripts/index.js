@@ -6,6 +6,8 @@ function onLoad() {
   let bagItemsStr = localStorage.getItem("bagItems");
   bagItems = bagItemsStr ? JSON.parse(bagItemsStr) : [];
   displayItemsOnHome();
+  loadBagItemObjects();
+  displayBagItems();
   displayBagItemCount();
 }
 
