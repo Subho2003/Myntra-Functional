@@ -1,6 +1,7 @@
 let bagItems;
 
 onLoad();
+displayBagItemCount();
 
 function onLoad() {
   let bagItemsStr = localStorage.getItem("bagItems");
