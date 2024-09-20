@@ -6,6 +6,7 @@ function onLoad() {
   let bagItemsStr = localStorage.getItem("bagItems");
   bagItems = bagItemsStr ? JSON.parse(bagItemsStr) : [];
   displayItemsOnHome();
+  loadBagItemObjects();
   displayBagItemCount();
 }
 
@@ -30,7 +31,7 @@ function displayItemsOnHome() {
             <span class="original-price">Rs ${item.original_price}</span>
             <span class="discount">(${item.discount_percentage}% off)</span>
           </div>
-          <button class="btn-add-bag" onclick="addToBag(${items[i].id})">Add to Bag</button>
+          <button class="btn-add-bag" onclick="addToBag(${item.id})">Add to Bag</button>
         </div>`;
         i++;
   })
